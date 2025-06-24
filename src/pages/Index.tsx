@@ -11,12 +11,12 @@ const Index = () => {
       <section className="relative min-h-screen flex items-center justify-center px-6">
         <div className="absolute inset-0 bg-gradient-to-b from-zinc-900/50 to-zinc-950"></div>
         <div className="relative z-10 max-w-4xl mx-auto text-center">
-          <h1 className="text-6xl md:text-7xl tracking-tight mb-6 italic font-thin text-zinc-400">
+          <h1 className="text-6xl md:text-7xl tracking-tight mb-6 italic text-zinc-400">
             Treine
-            <span className="block text-zinc-400 italic font-thin">de forma <span className="text-zinc-100">inteligente</span></span>
+            <span className="block text-zinc-400 italic ">de forma <span className="text-zinc-100">inteligente</span></span>
           </h1>
           <p className="text-2xl md:text-3xl text-zinc-400 font-light mb-12 max-w-2xl mx-auto leading-relaxed">
-            Sem achismo. Métodos com base em evidências. 
+            Sem achismo. Treinamento com base em evidências. 
           </p>
           <Button 
             size="lg" 
