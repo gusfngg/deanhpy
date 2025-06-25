@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { ArrowRight, Dumbbell, Users, Target, Diameter } from "lucide-react";
 import JamesDean from '@/assets/jamesdean.jpg'
-
+import { Link } from "react-router-dom";
 const Index = () => {
   return (
     <div className="min-h-screen bg-zinc-950 text-zinc-100">
@@ -18,12 +18,19 @@ const Index = () => {
           <p className="text-2xl md:text-3xl text-zinc-400 font-light mb-12 max-w-2xl mx-auto leading-relaxed">
             Sem achismo. Treinamento com base em evidências. 
           </p>
-          <Button 
-            size="lg" 
-            className="bg-zinc-800 hover:bg-zinc-700 text-zinc-100 border border-zinc-700 py-4 text-lg font-light tracking-wide transition-all duration-300"
-          >
-            <ArrowRight className="h-5 w-5" />
-          </Button>
+
+          <a href="https://www.instagram.com/dean.hpy/" target="_blank" >
+            <Button 
+              size="lg" 
+              className="bg-zinc-800 hover:bg-zinc-700 text-zinc-100 border border-zinc-700 py-4 text-lg font-light tracking-wide transition-all duration-300"
+              >
+
+              
+                <ArrowRight className="h-5 w-5">
+                </ArrowRight>
+
+            </Button>
+          </a>
         </div>
         
         {/* Subtle smoke effect overlay */}
@@ -109,12 +116,14 @@ const Index = () => {
           <p className="text-xl text-zinc-400 font-light mb-12 max-w-2xl mx-auto leading-relaxed">
               Não perca tempo com tecnicas mirabolantes que no final só te deixa frustrado.          </p>
           <div className="space-y-4">
+          <a href="https://www.instagram.com/dean.hpy/" target="_blank" > 
             <Button 
               size="lg" 
               className="bg-zinc-100 hover:bg-zinc-200 text-zinc-900 px-8 py-4 text-lg font-medium tracking-wide transition-all duration-300"
             >
-              Chama no privado
+              Chama DM
             </Button>
+            </a>
           </div>
         </div>
       </section>
